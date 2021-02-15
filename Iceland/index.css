@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    line-height: 1.6;
+    background: #525457;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    padding: 0 3%;
+}
+
+.intro {
+    display: flex;
+    margin: 2% 4% 10%;
+}
+
+.main-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c2a1a1;
+}
+
+.greenery,
+.landscape,
+.northen-lights {
+    width: 34%;
+}
+
+.grass,
+.mountain,
+.lights {
+    padding: 0 2%;
+} 
+
+.last-part {
+    background-image: url("img/snow.jpg");
+    background-size: cover;
+    height: 800px;
+    background-color: white;
+}
+
+.last-part-header {
+    padding: 5% 5% 0;
+    color: #4798ba;
+    text-align: left;
+    margin-top: 0;
+}
+
+ul {
+    color: #073d54;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
