@@ -1,0 +1,49 @@
+h2, img, p {
+    padding-left: 20px;
+}
+
+h1{
+    color: #2e7ad3;
+    font-size: 48px;
+    text-align: center;
+    margin: 45px 0;
+}
+
+h2 {
+    color: #104c90;
+    font-size: 32px;
+    margin: 10px 0;
+
+}
+
+p {
+    font-size: 16px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.info{
+    background: #f1f1f1;
+    margin-top: 45px;
+    padding: 8px;
+}
+
+.first-paragraph {
+    margin-top: 25px;
+}
+
+.second-paragraph {
+    margin-top: 9px;
+}
+
+a:link {
+    color: #ff8000;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #ff8000;
+}
