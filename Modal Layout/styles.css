@@ -1,0 +1,41 @@
+html, body {
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+    background-color: royalblue;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#modal {
+  max-width: 600px;
+  height: 200px;
+  position: relative;
+  background-color: #fff;
+  margin: 0 auto;
+  top: 40%;
+  padding: 20px;
+}
+
+#overlay {
+  display: none;
+  max-width: 100%;
+  min-width: max-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.contact-block {
+  min-width: 400px;
+}
