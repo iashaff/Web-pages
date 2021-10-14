@@ -13,6 +13,9 @@ strong {
     font-weight: 900;
 }
 
+img {
+    width: 100%;
+}
 /* Typography */
 
 h2 {
@@ -43,7 +46,8 @@ section {
 
 .container {
     margin: 0 auto; 
-    width: 620px;
+    width: 90%;
+    max-width: 620px;
 }
 
 .section-one {
