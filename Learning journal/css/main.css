@@ -1,0 +1,287 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Typography */
+
+.container {
+   color: #090909; 
+   min-width: 374px; 
+   margin: 0 1.25em 0;
+   
+}
+
+ul {
+    list-style: none;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #090909;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Header */
+
+nav, ul, .logo-el {
+    display: flex;
+}
+
+nav, .logo-el {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: 1em 0;
+}
+
+ ul li:first-child {
+   margin-right: 1em;
+  
+} 
+
+.logo {
+    width: 23px;
+    height: 23px;
+}
+
+ h3 {
+      font-size: 0.847rem;
+      margin-left: .3em;
+ }
+ 
+ ul {
+     font-size: .75rem;
+     font-weight: 600;
+ }
+
+
+/* main post */
+
+.date {
+    font-size: 0.75rem;
+    display: inline-block;
+    margin-top: 6.5em;
+}
+
+
+.main-article {
+     margin-top: 2em; 
+}
+
+.main-article .date {
+    margin: 0 auto 1em;
+}
+
+.main-article img {
+   max-height: 191px;
+   object-position: top;
+   margin: 2.1875em auto;
+}
+
+.main-article h1 {
+    margin: 0 auto;
+    letter-spacing: -0.03em;
+}
+
+.main-article h3,
+.recent-posts {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem; 
+}
+
+.main-article h3 {
+    margin-left: 0;
+}
+
+.post-paragraph {
+    margin-top: .9375em;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: .9375em;
+}
+
+.recent-posts {
+    text-align: center;
+    margin-bottom: 1.6875em;
+}
+
+.posts-article3 {
+    margin-bottom: 3.5em;
+}
+
+
+/* article-listing */
+
+.article-listing {
+    margin-top: 2.125em;
+}
+
+.article-listing .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5625em;
+}
+
+.article-date {
+    display: inline-block;
+    font-size: 0.886rem;
+    margin-top: 0.875em;
+}
+
+.article-listing h2 {
+    margin: .5625em 0;
+    color: #141414;
+}
+
+.article-listing p {
+    color: #505050;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6.5625em;
+    background: #202020;
+    color: #D7D7D7;
+}
+
+footer span {
+    font-size: .75rem;
+}
+
+footer span:first-child {
+    font-weight: 700;
+    color: #ECECEC;
+    letter-spacing: -0.03em;
+}
+
+
+/* Media */
+
+@media  (min-width: 1085px) {
+    .container {
+        max-width: 979px;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
+    
+    ul {
+        font-size: 1rem;
+    }
+    
+    .article-listing .container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .main-article .date {
+       display: block;
+       font-size: 1rem;
+   }
+   .main-article h1 {
+       font-size: 2.25rem;
+   }
+   
+   .main-article img {
+       max-height: 488px;
+   }
+   
+   .main-article h3,
+   .recent-posts {
+       font-size: 1.5rem;
+   }
+   
+   .posts {
+       font-size: 1.143rem;
+   }
+   
+   .recent-posts {
+       margin-top: 2.437em;
+   }
+   
+   .post-paragraph,
+   .posts,
+   .main-article .date,
+   .main-article h1 {
+       max-width: 844px;
+   }
+   
+   
+   .post-paragraph,
+   .posts {
+       margin-left: auto;
+       margin-right: auto;
+   }
+      
+}
+
+
+/* About page */
+
+.about-image {
+    height: 182px;
+    width: 182px;
+    border-radius: 50%;
+}
+
+.about-paragraph {
+    margin: 1em 0 3.125em;
+}
+
+.about-article {
+    margin-top: 1.625em;
+}
+
+@media (min-width: 1085px) {
+    .about-me {
+        display: flex;
+    }
+    
+    .about-intro {
+       margin-left: 2.0625em; 
+    }
+    
+    .about-intro h1 {
+        letter-spacing: -0.03em;
+        font-size: 2.25rem;
+    }
+}
